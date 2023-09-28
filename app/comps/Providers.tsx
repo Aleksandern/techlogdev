@@ -9,7 +9,7 @@ interface PropsT {
 const Providers: React.FC<PropsT> = ({ children }) => (
   <ThemeProvider
     attribute="class"
-    defaultTheme="system"
+    defaultTheme="light"
     enableSystem
   >{children}</ThemeProvider>
 );
